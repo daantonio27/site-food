@@ -1,0 +1,247 @@
+.jumbotron {
+  @include respond(xs) {
+    height: 83vh !important;
+    width: 100% !important;
+    position: relative;
+    top: 6em;
+    justify-content: normal;
+  }
+
+  @include respond(sm) {
+    height: 315px !important;
+    width: 100% !important;
+    position: relative;
+    top: 6em;
+    justify-content: normal;
+  }
+
+  @include respond(md) {
+    height: 360px !important;
+    width: 100% !important;
+    position: relative;
+    top: 6em;
+    justify-content: normal;
+  }
+  @include respond(lg) {
+    height: 325px !important;
+    width: 100% !important;
+    position: relative;
+    top: 6em;
+    justify-content: normal;
+  }
+  @include respond(xl) {
+    height: 325px !important;
+    width: 100% !important;
+    position: relative;
+    top: 6em;
+    justify-content: normal;
+  }
+
+  .jumbotron-thumb {
+    @include respond(xs) {
+      margin: 0 !important;
+      margin-top: 3em !important;
+    }
+
+    @include respond(sm) {
+      margin: 0 !important;
+      margin-top: 3em !important;
+    }
+
+    @include respond(md) {
+      margin: 0 !important;
+      margin-top: 3em !important;
+    }
+    @include respond(lg) {
+      margin: 0 !important;
+      margin-top: 3em !important;
+    }
+    @include respond(xl) {
+      margin: 0 !important;
+      margin-top: 3em !important;
+    }
+
+    h4 {
+      @include respond(xs) {
+        font-size: 20px;
+      }
+
+      @include respond(sm) {
+        font-size: 20px;
+      }
+
+      @include respond(md) {
+        font-size: 20px;
+      }
+      @include respond(lg) {
+        font-size: 20px;
+      }
+      @include respond(xl) {
+        font-size: 20px;
+      }
+    }
+
+    h3 {
+      @include respond(xs) {
+        font-size: 2em;
+        margin: 0.5em 0 0.5em 0 !important;
+      }
+
+      @include respond(sm) {
+        font-size: 1.5em;
+        margin: 0.5em 0 0.5em 0 !important;
+      }
+
+      @include respond(md) {
+        font-size: 2em;
+        margin: 0.5em 0 0.5em 0 !important;
+      }
+      @include respond(lg) {
+        font-size: 2em;
+        margin: 0.5em 0 0.5em 0 !important;
+      }
+      @include respond(xl) {
+        font-size: 2em;
+        margin: 0.5em 0 0.5em 0 !important;
+      }
+    }
+
+    h5 {
+      @include respond(xs) {
+        font-size: 1.1em !important;
+      }
+
+      @include respond(sm) {
+        font-size: 1em !important;
+      }
+
+      @include respond(md) {
+        font-size: 1em !important;
+      }
+      @include respond(lg) {
+        font-size: 1em !important;
+      }
+      @include respond(xl) {
+        font-size: 1em !important;
+      }
+    }
+  }
+
+  &-button {
+    @include respond(xs) {
+      z-index: 0 !important;
+      display: flex !important;
+    }
+
+    @include respond(sm) {
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center;
+      z-index: 0 !important;
+    }
+
+    @include respond(md) {
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center;
+      z-index: 0 !important;
+    }
+    @include respond(lg) {
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center;
+      z-index: 0 !important;
+    }
+    @include respond(xl) {
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center;
+      z-index: 0 !important;
+    }
+
+    &__orange {
+      @include respond(xs) {
+        width: 100px !important;
+        height: 38px !important;
+        font-size: 1em !important;
+      }
+
+      @include respond(sm) {
+        width: 100px !important;
+        height: 38px !important;
+        font-size: 1em !important
+      }
+
+      @include respond(md) {
+        width: 100px !important;
+        height: 38px !important;
+        font-size: 1em !important
+      }
+      @include respond(lg) {
+        width: 100px !important;
+        height: 38px !important;
+        font-size: 1em !important
+      }
+      @include respond(xl) {
+        width: 100px !important;
+        height: 38px !important;
+        font-size: 1em !important
+      }
+    }
+
+    &__transparent {
+      @include respond(xs) {
+        width: 100px !important;
+        height: 38px !important;
+        font-size: 1em !important;
+        border: 1px solid $alternate-colorSecondary;
+      }
+
+      @include respond(sm) {
+        width: 100px !important;
+        height: 38px !important;
+        font-size: 1em !important;
+        border: 1px solid $alternate-colorSecondary;
+      }
+
+      @include respond(md) {
+        width: 100px !important;
+        height: 38px !important;
+        font-size: 1em !important;
+        border: 1px solid $alternate-colorSecondary;
+      }
+      @include respond(lg) {
+        width: 100px !important;
+        height: 38px !important;
+        font-size: 1em !important;
+        border: 1px solid $alternate-colorSecondary;
+      }
+      @include respond(xl) {
+        width: 100px !important;
+        height: 38px !important;
+        font-size: 1em !important;
+        border: 1px solid $alternate-colorSecondary;
+      }
+
+      a {
+        @include respond(xs) {
+          color: $alternate-colorSecondary !important;
+        }
+
+        @include respond(sm) {
+          color: $alternate-colorSecondary !important;
+        }
+
+        @include respond(md) {
+          color: $alternate-colorSecondary !important;
+        }
+        @include respond(lg) {
+          color: $alternate-colorSecondary !important;
+        }
+        @include respond(xl) {
+          color: $alternate-colorSecondary !important;
+        }
+      }
+    }
+  }
+}

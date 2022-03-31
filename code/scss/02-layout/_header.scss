@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  z-index: 1;
+ background-color: $alternate-colorSecondary;
+
+  img {
+    width: 206px;
+    height: 101px;
+    ;
+  }
+
+  .menu-btn {
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    z-index: 1;
+
+    .menu-btn__lines,
+    .menu-btn__lines::before,
+    .menu-btn__lines::after {
+      width: 1.5rem;
+      height: 0.1rem;
+      background-color: $primary-color;
+      transition: all 0.5s ease-in-out;
+    }
+
+    .menu-btn__lines::before,
+    .menu-btn__lines::after {
+      content: "";
+      position: absolute;
+    }
+
+    .menu-btn__lines::before {
+      transform: translateY(-0.5rem);
+    }
+
+    .menu-btn__lines::after {
+      transform: translateY(0.5rem);
+    }
+
+    &.open {
+      .menu-btn__lines {
+        transform: translateX(2rem);
+        background-color: transparent;
+      }
+
+      .menu-btn__lines::before {
+        transform: rotate(45deg) translate(-1.5rem, 1.5rem);
+        background-color: #FA4A0C;
+      }
+
+      .menu-btn__lines::after {
+        transform: rotate(-45deg) translate(-1.5rem, -1.5rem);
+        background-color: #FA4A0C;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #111111;
+    font-size: 2rem;
+    @include font('Monserrat', 600, 16px, $secondary-color);
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  .menu-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    li {
+      a {
+        font-size: 1rem;
+        padding: 0.5em 1em;
+      }
+    }
+  }
+}

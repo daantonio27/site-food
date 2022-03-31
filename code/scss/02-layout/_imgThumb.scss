@@ -1,0 +1,18 @@
+.imageThumb {
+  height: auto !important;
+  text-align: center !important;
+
+  img {
+    position: relative;
+    top: -13em;
+    left: 0em;
+  }
+
+  span {
+    margin: -14em auto auto auto !important;
+    display: block;
+    width: 884px !important;
+    height: 3px;
+    background-color: #E4E4E4;
+  }
+}

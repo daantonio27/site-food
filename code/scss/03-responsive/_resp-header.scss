@@ -1,0 +1,276 @@
+header {
+  @include respond(xs) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1em !important;
+    align-items: center;
+  }
+
+  @include respond(sm) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1em !important;
+    align-items: center;
+  }
+
+  @include respond(md) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1em !important;
+    align-items: center;
+  }
+
+  @include respond(lg) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1em !important;
+    align-items: center;
+  }
+  @include respond(xl) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1em !important;
+    align-items: center;
+  }
+
+  img {
+    @include respond(xs) {
+      width: 130px !important;
+      height: 50px !important;
+      margin-left: -.7em;
+    }
+
+    @include respond(sm) {
+      width: 130px !important;
+      height: 50px !important;
+      margin-left: -.7em;
+    }
+
+    @include respond(md) {
+      width: 130px !important;
+      height: 50px !important;
+      margin-left: -.7em;
+    }
+
+    @include respond(lg) {
+      width: 130px !important;
+      height: 50px !important;
+      margin-left: -.7em;
+    }
+    @include respond(xl) {
+      width: 130px !important;
+      height: 50px !important;
+      margin-left: -.7em;
+    }
+  }
+
+  .menu-btn {
+    @include respond(xs) {
+      display: flex !important;
+    }
+
+    @include respond(sm) {
+      display: flex !important;
+    }
+
+    @include respond(md) {
+      display: flex !important;
+    }
+
+    @include respond(lg) {
+      display: flex !important;
+    }
+    @include respond(xl) {
+      display: flex !important;
+    }
+  }
+
+  .menu-items {
+    @include respond(xs) {
+      box-shadow: 0 0 6px #878787;
+      height: 102vh !important;
+      width: 55% !important;
+      flex-direction: column;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    transform: translateX(183%);
+    background-color: $alternate-colorSecondary !important;
+    transition: all 0.3s ease-in-out;
+    }
+
+    @include respond(sm) {
+      box-shadow: 0 0 6px #878787;
+      height: 102vh !important;
+      width: 55% !important;
+      flex-direction: column;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    transform: translateX(183%);
+    background-color: $alternate-colorSecondary !important;
+    transition: all 0.3s ease-in-out;
+    }
+
+    @include respond(md) {
+      box-shadow: 0 0 6px #878787;
+      height: 102vh !important;
+      width: 55% !important;
+      flex-direction: column;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    transform: translateX(183%);
+    background-color: $alternate-colorSecondary !important;
+    transition: all 0.3s ease-in-out;
+    }
+
+    @include respond(lg) {
+      box-shadow: 0 0 6px #878787;
+      height: 102vh !important;
+      width: 55% !important;
+      flex-direction: column;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    transform: translateX(183%);
+    background-color: $alternate-colorSecondary !important;
+    transition: all 0.3s ease-in-out;
+    }
+    @include respond(xl) {
+      box-shadow: 0 0 6px #878787;
+      height: 102vh !important;
+      width: 55% !important;
+      flex-direction: column;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    transform: translateX(183%);
+    background-color: $alternate-colorSecondary !important;
+    transition: all 0.3s ease-in-out;
+    }
+
+    &.open {
+      @include respond(xs) {
+        transform: translateX(83%) !important;
+    align-items: center !important;
+      }
+
+      @include respond(sm) {
+        transform: translateX(83%) !important;
+    align-items: center !important;
+      }
+
+      @include respond(md) {
+        transform: translateX(83%) !important;
+    align-items: center !important;
+      }
+      @include respond(lg) {
+        transform: translateX(83%) !important;
+    align-items: center !important;
+      }
+      @include respond(xl) {
+        transform: translateX(83%) !important;
+    align-items: center !important;
+      }
+    }
+  }
+
+  li {
+    @include respond(xs) {
+      margin-left: 0em;
+    }
+    @include respond(sm) {
+      margin-left: 0em;
+    }
+    @include respond(md) {
+      margin-left: 0em;
+    }
+    @include respond(lg) {
+      margin-left: 0em;
+    }
+    @include respond(xl) {
+      margin-left: 0em;
+    }
+
+    a {
+      @include respond(xs) {
+        color: $primary-color !important;
+        font-size: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0 !important;
+      }
+
+      @include respond(sm) {
+        color: $primary-color !important;
+        font-size: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0 !important;
+      }
+
+      @include respond(md) {
+        color: $primary-color !important;
+        font-size: 1.3em !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0 !important;
+      }
+      @include respond(lg) {
+        color: $primary-color !important;
+        font-size: 1.5em !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0 !important;
+      }
+      @include respond(xl) {
+        color: $primary-color !important;
+        font-size: 1.5em !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0 !important;
+      }
+    }
+  }
+}
